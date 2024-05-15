@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-27T11:09:19 GMT" name="Flight Reservation" finished-at="2024-04-27T11:09:48 GMT" duration-ms="28738">
+    <groups>
+    </groups>
+    <test started-at="2024-04-27T11:09:19 GMT" name="Test2" finished-at="2024-04-27T11:09:46 GMT" duration-ms="26970">
+      <class name="com.qa.tests.flightreservation.FlightReservationTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@4961f6af]" started-at="2024-04-27T11:09:19 GMT" name="setDriver" finished-at="2024-04-27T11:09:29 GMT" duration-ms="9063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71def8f8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setDriver(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@4961f6af]" started-at="2024-04-27T11:09:29 GMT" name="setDriver" finished-at="2024-04-27T11:09:29 GMT" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1169 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="userRegistrationTest()[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@4961f6af]" started-at="2024-04-27T11:09:29 GMT" name="userRegistrationTest" finished-at="2024-04-27T11:09:36 GMT" duration-ms="7594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method is-config="true" signature="setDriver(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@4961f6af]" started-at="2024-04-27T11:09:36 GMT" name="setDriver" finished-at="2024-04-27T11:09:36 GMT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1169 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="userConfirmationTest()[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@4961f6af]" started-at="2024-04-27T11:09:36 GMT" name="userConfirmationTest" finished-at="2024-04-27T11:09:39 GMT" depends-on-methods="com.qa.tests.flightreservation.FlightReservationTest.userRegistrationTest" duration-ms="2357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userConfirmationTest -->
+        <test-method is-config="true" signature="setDriver(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@4961f6af]" started-at="2024-04-27T11:09:39 GMT" name="setDriver" finished-at="2024-04-27T11:09:39 GMT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1169 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="flightSearchTest()[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@4961f6af]" started-at="2024-04-27T11:09:39 GMT" name="flightSearchTest" finished-at="2024-04-27T11:09:41 GMT" depends-on-methods="com.qa.tests.flightreservation.FlightReservationTest.userConfirmationTest" duration-ms="1997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSearchTest -->
+        <test-method is-config="true" signature="setDriver(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@4961f6af]" started-at="2024-04-27T11:09:41 GMT" name="setDriver" finished-at="2024-04-27T11:09:41 GMT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1169 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="FlightSelectionTest()[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@4961f6af]" started-at="2024-04-27T11:09:41 GMT" name="FlightSelectionTest" finished-at="2024-04-27T11:09:45 GMT" depends-on-methods="com.qa.tests.flightreservation.FlightReservationTest.flightSearchTest" duration-ms="4130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightSelectionTest -->
+        <test-method is-config="true" signature="setDriver(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@4961f6af]" started-at="2024-04-27T11:09:45 GMT" name="setDriver" finished-at="2024-04-27T11:09:45 GMT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1169 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="flightConfirmationTest()[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@4961f6af]" started-at="2024-04-27T11:09:45 GMT" name="flightConfirmationTest" finished-at="2024-04-27T11:09:46 GMT" depends-on-methods="com.qa.tests.flightreservation.FlightReservationTest.FlightSelectionTest" duration-ms="773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightConfirmationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@4961f6af]" started-at="2024-04-27T11:09:46 GMT" name="tearDown" finished-at="2024-04-27T11:09:46 GMT" duration-ms="864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.flightreservation.FlightReservationTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2024-04-27T11:09:19 GMT" name="Test3" finished-at="2024-04-27T11:09:48 GMT" duration-ms="28738">
+      <class name="com.qa.tests.flightreservation.FlightReservationTest">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@7748410a]" started-at="2024-04-27T11:09:19 GMT" name="setupConfig" finished-at="2024-04-27T11:09:19 GMT" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@7748410a]" started-at="2024-04-27T11:09:19 GMT" name="setDriver" finished-at="2024-04-27T11:09:29 GMT" duration-ms="9063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@383bfa16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setDriver(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@7748410a]" started-at="2024-04-27T11:09:29 GMT" name="setDriver" finished-at="2024-04-27T11:09:29 GMT" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1753 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="userRegistrationTest()[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@7748410a]" started-at="2024-04-27T11:09:29 GMT" name="userRegistrationTest" finished-at="2024-04-27T11:09:36 GMT" duration-ms="7582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method is-config="true" signature="setDriver(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@7748410a]" started-at="2024-04-27T11:09:36 GMT" name="setDriver" finished-at="2024-04-27T11:09:36 GMT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1753 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="userConfirmationTest()[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@7748410a]" started-at="2024-04-27T11:09:36 GMT" name="userConfirmationTest" finished-at="2024-04-27T11:09:39 GMT" depends-on-methods="com.qa.tests.flightreservation.FlightReservationTest.userRegistrationTest" duration-ms="2422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userConfirmationTest -->
+        <test-method is-config="true" signature="setDriver(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@7748410a]" started-at="2024-04-27T11:09:39 GMT" name="setDriver" finished-at="2024-04-27T11:09:39 GMT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1753 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="flightSearchTest()[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@7748410a]" started-at="2024-04-27T11:09:39 GMT" name="flightSearchTest" finished-at="2024-04-27T11:09:41 GMT" depends-on-methods="com.qa.tests.flightreservation.FlightReservationTest.userConfirmationTest" duration-ms="2765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSearchTest -->
+        <test-method is-config="true" signature="setDriver(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@7748410a]" started-at="2024-04-27T11:09:41 GMT" name="setDriver" finished-at="2024-04-27T11:09:41 GMT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1753 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="FlightSelectionTest()[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@7748410a]" started-at="2024-04-27T11:09:41 GMT" name="FlightSelectionTest" finished-at="2024-04-27T11:09:46 GMT" depends-on-methods="com.qa.tests.flightreservation.FlightReservationTest.flightSearchTest" duration-ms="4547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightSelectionTest -->
+        <test-method signature="flightConfirmationTest()[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@7748410a]" started-at="2024-04-27T11:09:46 GMT" name="flightConfirmationTest" finished-at="2024-04-27T11:09:47 GMT" depends-on-methods="com.qa.tests.flightreservation.FlightReservationTest.FlightSelectionTest" duration-ms="1275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightConfirmationTest -->
+        <test-method is-config="true" signature="setDriver(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@7748410a]" started-at="2024-04-27T11:09:46 GMT" name="setDriver" finished-at="2024-04-27T11:09:46 GMT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1753 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.flightreservation.FlightReservationTest@7748410a]" started-at="2024-04-27T11:09:47 GMT" name="tearDown" finished-at="2024-04-27T11:09:48 GMT" duration-ms="911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.flightreservation.FlightReservationTest -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Flight Reservation -->
+</testng-results>

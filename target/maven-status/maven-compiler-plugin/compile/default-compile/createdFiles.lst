@@ -1,0 +1,8 @@
+com/qa/pages/flightreservation/FlightSearchPage.class
+com/qa/pages/flightreservation/FlightSelectionPage.class
+com/qa/pages/flightreservation/FlightConfirmationPage.class
+com/qa/pages/flightreservation/RegistrationPage.class
+com/qa/pages/vendorportal/LoginPage.class
+com/qa/pages/vendorportal/DashboardPage.class
+com/qa/pages/flightreservation/RegistrationConfirmationPage.class
+com/qa/pages/AbstractPage.class
